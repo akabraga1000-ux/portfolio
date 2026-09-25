@@ -166,7 +166,7 @@
     <div class="dhead"><span>Name</span><span>Last modified</span><span>Size</span></div>
     <div class="drow"><div class="fname"><span class="ico doc"></span><span>The Retention Ecosystem &middot; 13 chapters</span></div><div class="dmeta">Aug 29, 2026</div><div class="dmeta">1.2 MB</div></div>
     <div class="drow"><div class="fname"><span class="ico doc"></span><span>Campaign Concept Framework &middot; promo &amp; content</span></div><div class="dmeta">Aug 31, 2026</div><div class="dmeta">840 KB</div></div>
-    <div class="drow"><div class="fname"><span class="ico doc"></span><span>Flow Architecture Playbook</span></div><div class="dmeta">Aug 29, 2026</div><div class="dmeta">610 KB</div></div>
+    <div class="drow"><div class="fname"><span class="ico doc"></span><span>Flow Architecture Playbook</span></div><div class="dmeta">Sep 24, 2026</div><div class="dmeta">610 KB</div></div>
     <div class="drow"><div class="fname"><span class="ico doc"></span><span>Brand DNA &middot; intake template</span></div><div class="dmeta">Aug 28, 2026</div><div class="dmeta">220 KB</div></div>
     <div class="drow"><div class="fname"><span class="ico sheet2"></span><span>Subscription retention benchmarks</span></div><div class="dmeta">Aug 28, 2026</div><div class="dmeta">96 KB</div></div>
     <div class="drow"><div class="fname"><span class="ico doc"></span><span>Swipe file &amp; teardowns</span></div><div class="dmeta">Aug 30, 2026</div><div class="dmeta">3.1 MB</div></div>
@@ -236,27 +236,29 @@
   </div>
 
   <div class="docwin">
-    <div class="docbar"><span class="ico doc"></span><b>Flow Architecture Playbook</b><em>Last edit Aug 29</em></div>
+    <div class="docbar"><span class="ico doc"></span><b>Flow Architecture Playbook</b><em>Last edit Sep 24</em></div>
     <div class="docbody">
       <h3>Build order, and why it's that order</h3>
-      <p>Deliverability before a single send: dedicated sending domain, DKIM, SPF and DMARC aligned,
-      proper warm-up. Then the integration end to end, because a flow suite built on broken events is
-      just a nicely designed guess.</p>
+      <p>Flows have a build order, not a menu, in falling order of leverage. Pre-purchase brings the
+      first order. Post-purchase is where LTV actually gets built.</p>
       <ul>
-        <li><b>Abandoned checkout:</b> objection handling first (shipping, sizing, returns,
-        social proof). Strategic discount only at the end.</li>
-        <li><b>Welcome, 7-14 days:</b> deliver whatever the popup promised, immediately.
-        Then brand and founder's story, why the product works, bestseller with proof, offer running
-        out, urgency plus risk reversals.</li>
-        <li><b>Browse and add-to-cart:</b> treated as different levels of intent. Dynamic block
-        with the exact product, then the objection that actually stops people, then the offer.</li>
-        <li><b>Post-purchase:</b> founder thank-you, product education, routine and community,
-        soft cross-sell, review request. This is where LTV gets built.</li>
-        <li><b>Replenishment and winback:</b> replenishment on the real repurchase window for
-        the category. Winback escalates value by how long they've been gone, store credit ahead of
-        percentage discount.</li>
-        <li><b>VIP and sunset:</b> VIP on spend and frequency together. Sunset isn't really a
-        flow, it's the thing protecting every other one.</li>
+        <li><b>Trigger first:</b> exclude test and staff emails, wholesale, fraud and POS orders, and
+        set the minimum order and re-entry rules. The right email to the wrong person costs
+        deliverability, not just the sale.</li>
+        <li><b>Pop-up:</b> it grows the list every other flow depends on, and site and browse abandon
+        only fire for identified profiles.</li>
+        <li><b>Welcome:</b> one email a day, no gaps. 3, 5 or 8 emails (5 by default), at least one in
+        plain text.</li>
+        <li><b>Site, browse, cart and checkout abandon:</b> the deepest signal wins, so each flow exits
+        when the person moves further down. Dynamic product block on top, copy that assumes the sale
+        in tone, never in fact.</li>
+        <li><b>Post-purchase:</b> relationship before sale. Feel good about the purchase, learn the
+        product, and only then the repurchase nudge, timed against delivery.</li>
+        <li><b>Subscription cycle:</b> pre-renewal, failed payment and cancel save, each with its own
+        trigger. Usually the highest-margin flow in the account.</li>
+        <li><b>Winback and sunset:</b> winback at around 3x the repurchase time, with store credit that
+        has a face value and an expiry date. Sunset at 120 days without an open, protecting every
+        other flow.</li>
       </ul>
       <p class="fnote">The playbook is the starting point, not the answer. The real repurchase window,
       how hard the abandonment flows can push, whether a list will take an email a day... all of
