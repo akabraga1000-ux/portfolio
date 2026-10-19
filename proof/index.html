@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Proof of Work · Gabriel Braga Marchió</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f8f9fa; --page:#ffffff; --ink:#202124; --sec:#5f6368; --faint:#80868b;
+    --line:#e0e0e0; --hair:#f1f3f4; --blue:#1a73e8; --blue-soft:#e8f0fe;
+    --green:#188038; --green-soft:#e6f4ea;
+    --shadow:0 1px 3px rgba(60,64,67,.16), 0 4px 8px rgba(60,64,67,.08);
+    --ui:"Roboto",Arial,Helvetica,sans-serif;
+  }
+  @page{size:Letter;margin:10mm 12mm}
+  *{box-sizing:border-box}
+  html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--ui);font-size:9.6pt;line-height:1.42}
+  .sheet{max-width:820px;margin:24px auto;background:var(--page);box-shadow:var(--shadow);border-radius:8px;padding:30px 36px}
+  @media print{body{background:#fff}.sheet{box-shadow:none;margin:0;padding:0;max-width:none;border-radius:0}.dl{display:none}}
+  @media (max-width:640px){.sheet{margin:0;border-radius:0;padding:22px 16px}.stats{grid-template-columns:1fr}}
+  .eyebrow{font-size:8.5pt;letter-spacing:.6px;text-transform:uppercase;color:var(--blue);font-weight:700}
+  h1{font-size:20pt;font-weight:500;margin:4px 0 2px}
+  .who{color:var(--sec);font-size:9.5pt;margin:0 0 12px}
+  .who a{color:var(--sec);text-decoration:none}
+  .dl{float:right;font-size:9pt;color:var(--blue);text-decoration:none;border:1px solid var(--blue);border-radius:16px;padding:4px 12px;margin-top:4px}
+  hr{border:0;border-top:1px solid var(--line);margin:12px 0}
+  h2{font-size:10.5pt;font-weight:700;margin:11px 0 3px}
+  h2 .tag{font-size:8pt;font-weight:500;color:var(--green);background:var(--green-soft);border-radius:10px;padding:2px 8px;margin-left:6px;vertical-align:1px}
+  p{margin:0 0 6px}
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:8px 0 2px}
+  .stat{background:var(--blue-soft);border-radius:8px;padding:10px 12px}
+  .stat b{display:block;font-size:16pt;font-weight:500;color:var(--blue);line-height:1.15}
+  .stat span{font-size:8.5pt;color:var(--sec)}
+  figure{margin:6px 0 0}
+  figure img{width:100%;display:block;border:1px solid var(--line);border-radius:6px}
+  figcaption{font-size:8.3pt;color:var(--faint);margin-top:4px}
+  .foot{font-size:9pt;color:var(--sec)}
+  .foot a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="sheet">
+
+<a class="dl" href="gabriel-marchio-proof-of-work.pdf">Download PDF</a>
+<div class="eyebrow">Proof of work</div>
+<h1>Gabriel Braga Marchió</h1>
+<p class="who">Retention &amp; lifecycle strategist · São Paulo, Brazil (UTC-3) · <a href="mailto:akabraga1000@gmail.com">akabraga1000@gmail.com</a> · <a href="https://www.linkedin.com/in/gabriel-braga-00364118a/">LinkedIn</a></p>
+
+<p>Eight years in marketing, the last five in retention. Co-founder of BMM Digital, a group of our own DTC brands (about US$5M
+cumulative from May 2021 to June 2025, with a team of up to fifteen). Since 2025, my own retention consultancy, running
+lifecycle end to end for five DTC brands at once. 150+ flows and 500+ campaigns shipped.</p>
+
+<div class="stats">
+  <div class="stat"><b>35-39% → 69%</b><span>Month-3 retention by cohort, after the lifecycle rebuild</span></div>
+  <div class="stat"><b>10,000</b><span>Unique subscribers on a direct refill subscription</span></div>
+  <div class="stat"><b>60,000+</b><span>Units shipped, kits and refills, 2023 to 2026</span></div>
+</div>
+
+<h2>The lifecycle rebuild <span class="tag">Oct and Nov 2025 cohorts vs Jan and Feb 2026</span></h2>
+<p>On BladerPRO (PrimerMAN, our own direct response brand), month-3 retention by cohort was holding at 35-39%, with most of
+the loss before the third charge. I rebuilt the lifecycle as one connected system around the habit, so the refill
+stopped behaving like a one-off order. The January and February 2026 cohorts reached 69% at month 3. Same brand, same
+product.</p>
+
+<figure>
+  <img src="bladerpro-cohorts-month-3.png" alt="BladerPRO retention by acquisition cohort, June 2025 to June 2026, with month 3 highlighted before (October and November 2025, 38.81% and 35.01%) and after (January and February 2026, 69.64% and 68.98%)">
+  <figcaption>Retention by acquisition cohort, from the brand's cohort dashboard. Month 3 highlighted before and after the rebuild. Customer counts hidden.</figcaption>
+</figure>
+
+<h2>The subscription, built from zero <span class="tag">2023 to 2026</span></h2>
+<p>A 5-in-1 electric shaving kit with blade refills delivered at home. Direct refill subscriptions weren't a thing in Brazil
+yet, so I sourced the tools and negotiated the implementation (Shopify, Guru as the subscription engine, Klaviyo for
+subscribers), and I designed the retention strategy and its metrics: LTV, CAC payback within contribution margin,
+retention by rebill, voluntary and involuntary churn, MRR.</p>
+
+<h2>How I report</h2>
+<p>Reports open on the client's business, not on email: profit, repurchase rate and LTV by cohort, with the email and SMS
+share underneath. Attributed revenue is a report, not the scoreboard.</p>
+
+<hr>
+<p class="foot">More work, the campaigns and flows I created: <a href="https://akabraga1000-ux.github.io/portfolio/">akabraga1000-ux.github.io/portfolio</a></p>
+
+</div>
+</body>
+</html>
